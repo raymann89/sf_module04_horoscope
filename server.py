@@ -5,7 +5,7 @@ from horoscope04 import generate_prophecies
 
 
 @route("/")
-@view("predictions")
+@view("index")
 def index():
     now = dt.now()
     x = random()
