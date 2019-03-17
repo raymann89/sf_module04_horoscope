@@ -28,24 +28,24 @@
     </div>
 </div>
 </body>
-<script>
+<script src="helper.js" language="javascript">
 
-     prophecies_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
+     <!--prophecies_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"-->
 
-     $("#main-paragraph").click(function() {
+     <!--$("#main-paragraph").click(function() {-->
 
-        $.getJSON(prophecies_url, function(data) {
-            paragraphs = data["prophecies"]
-            set_content_in_divs(paragraphs)
-        })
-    });
+        <!--$.getJSON(prophecies_url, function(data) {-->
+            <!--paragraphs = data["prophecies"]-->
+            <!--set_content_in_divs(paragraphs)-->
+        <!--})-->
+    <!--});-->
 
-    function set_content_in_divs(paragraphs) {
-        $.each(paragraphs, function(i, d) {
-            p = $("#p-" + i)
-            p.html("<p>" + d + "</p>")
-        })
-    };
+    <!--function set_content_in_divs(paragraphs) {-->
+        <!--$.each(paragraphs, function(i, d) {-->
+            <!--p = $("#p-" + i)-->
+            <!--p.html("<p>" + d + "</p>")-->
+        <!--})-->
+    <!--};-->
 
 
 </script>
